@@ -1,0 +1,39 @@
+#container{
+    width: 800px;
+    background-color: aliceblue;
+    margin: auto;
+    
+}
+#text{
+    border: solid;
+    width: 100px;
+    font-size: 20px;
+    margin-left: 100px;
+}
+#header{
+    display: flex;
+    margin-bottom: 20px;
+}
+#select{
+    display: inline;
+   /* margin-left: 150px; */
+    width: 150px;
+}
+#text2{
+    margin-left: 230px;
+    border: solid;
+    width: 100px;
+    font-size: 20px;
+
+}
+#inputs{
+    display: grid;
+    grid-template-columns:46% 46% ;
+    gap: 3%;
+    
+}
+input{
+    width: 90%;
+    padding-bottom: 300px;
+    text-align: start;
+}
